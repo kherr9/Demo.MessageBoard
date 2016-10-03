@@ -1,0 +1,7 @@
+version: 1.0.{build}
+before_build:
+- cmd: nuget restore
+build:
+  project: Demo.MessageBoard.sln
+  parallel: true
+  verbosity: minimal
