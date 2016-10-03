@@ -3,5 +3,6 @@ before_build:
 - cmd: nuget restore
 build:
   project: Demo.MessageBoard.sln
+  publish_wap: true
   parallel: true
   verbosity: minimal
