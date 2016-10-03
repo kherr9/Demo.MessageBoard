@@ -2,6 +2,9 @@
 
 namespace Demo.MessageBoard.WebApp.UnitTests
 {
+    /// <summary>
+    /// Example unit test
+    /// </summary>
     [TestFixture]
     public class EmptyTests
     {
